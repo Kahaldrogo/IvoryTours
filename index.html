@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="wdth-device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="boostrap/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="style.css">
+         <link rel="stylesheet" type="text/css" href="animate.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/pooper.js/1.12.9/umd/pooper.min.js"></script>
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+			<script src="boostrap/js/bootstrap.min.js"></script>
+			<link href="https://fonts.googleapis.com/css?family=Pacifico|Russo+one" rel="stylesheet">
+			<title>IvoryTours</title>
+		</head>
+		<body data-spy="scroll" data-target="#navigationmenu" data-offset="50">
+			<!--menu-->
+            <nav class="navbar navbar-expand-md navbar-light bg-dark sticky-top">
+            	<div class="container-fluid">
+            		<h1 id="logo"><a href="#" class="navbar-brand">Ivor<span>y</span>Tours!</a></h1>
+            		<button class="navbar-toggler"  data-toggle="collapse" data-target="#navigationmenu">
+            			<span class="navbar-toggler-icon"  style="color: #fff;"></span>
+            		</button>
+            		<div class="collapse navbar-collapse" id="navigationmenu">
+            			<ul class="navbar-nav ml-auto">
+            				<li class="nav-item active"> <a class="nav-link" href="index.html" style="color: #fff;">Accueil</a></li>
+            				<li class="nav-item"> <a href="#Services" class="nav-link" style="color: #fff;">Services</a></li>
+            				<li class="nav-item"> <a href="#destinations" class="nav-link" style="color: #fff;">Destinations</a></li>
+            				<li class="nav-item"> <a href="#footer" class="nav-link" style="color: #fff;">Contacts</a></li>
+            			</ul>
+            		</div>
+            	</div>
+            </nav>
+
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                   <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                   <li data-target="#carousel" data-slide-to="1"></li>
+                   <li data-target="#carousel" data-slide-to="2"></li>
+                 </ol>
+                 <div class="carousel-inner">
+                   <div class="carousel-item active">
+                     <div class="banner" style="background-image: url(images/s2.jpg);"></div>
+                     <div class="carousel-caption">
+                           <h2 id="logos" class="animated flash" style="animation-delay: 1s;">Ivor<span>y</span>Tou<span>rs!</span></h2>
+                           <p class="animated bounceInLeft" style="animation-delay: 2s;">Plateforme des guides touristiques ivoiriens</p>
+                        </div>
+                   </div>
+                   <div class="carousel-item">
+                     <div class="banner" style="background-image: url(images/main.jpg);"></div>
+                     <div class="carousel-caption">
+                           <h2 id="logos" class="animated flash" style="animation-delay: 1s;">Ivor<span>y</span>Tou<span>rs!</span></h2>
+                           <p class="animated bounceInLeft" style="animation-delay: 2s; width: 100%;">Vous recherchez une destination pour vos vacances? Ne cherchez plus! IvoryTours vous offre un voyage de reve aux pays des elephants. Sites touristiques, activite culturelles, detentes et loisirs au rendez vous. Tout pour vous emerveillez.... </p>
+                        </div>
+                   </div>
+                   <div class="carousel-item">
+                     <div class="banner" style="background-image: url(images/s1.jpg);"></div>
+                     <div class="carousel-caption">
+                           <h2 class="animated slideInRight" style="animation-delay: .5s;">Rejoingnez nous vite</h2>
+                           <p class="animated slideInLeft" style="animation-delay: 2s;">Pour profitez d un voyage de reves, inscrivez vous vite en cliquant sur le bouton</p>
+                           <button type="button" class="btn animated slideInDown" style="animation-delay: 3s;"data-toggle="modal" data-target="#exampleModal">Trouver Son Guide</button>
+                     </div>
+                   </div>
+                 </div>
+                 <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Previous</span>
+                 </a>
+                 <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="sr-only">Next</span>
+                 </a>
+            </div>
+
+            <!--service-->
+            <section class="container-fluid" id="Services">
+                  <h2 class="services" >Nos Services</h2>
+                  <span id="trait"><hr class="light" style="width: 100px !important; border:1px solid #343a40;"></span>
+                  <div class="row text-center">
+                        <div class="col-md-4">
+                                    <div class="cen">
+                                          <div class="service">
+                                                <div id="icones"><i class="fas fa-hotel fa-2x" id="icone"></i></div>
+                                                <h4>Reservation d'Hotel</h4>
+                                                <hr class="light">
+                                                <p>Faites une expérience de voyage en toute fluidité en réservant votre séjour avec nous. Nous nous sommes associé aux hotels sur tout l'etendu du territoire. Nous vous aiderons a trouver l'hotel ideal selon vos critères et vos gout en matiere de restauration. L'avantage est que vous pourriez beneficier de nos services a tout moment durant votre sejour. Vous pourrez reserver sans frais et avec une assistance en 10 langues.</p>
+                                          </div>
+                                    </div>
+                        </div>
+                        <div class="col-md-4">
+                              <div class="cen">
+                                    <div class="service">
+                                          <i class="fas fa-road fa-2x" id="icone"></i>
+                                          <h4>Plan de Voyage</h4>
+                                          <hr class="light">
+                                          <p>Explorateurs, trotteurs dans l’âme et pour certains accompagnateurs de voyages, vos Travels Planners ont parcouru le pays. Leurs expériences et leurs connaissances du terrain en font aujourd’hui des experts de leurs destinations. Nourris par leurs passions, ils partageront leur vision du voyage et créeront avec vous un séjour unique qui vous ressemble. </p>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="col-md-4">
+                              <div class="cen">
+                                    <div class="service">
+                                          <i class="fas fa-map-marked fa-2x" id="icone"></i>
+                                          <h4>Visite Guidée</h4>
+                                          <hr class="light">
+                                          <p>Des guides passionnés , vous ouvrent les portes de trésors cachés.Que vous soyez en séjour ou que vous viviez en Cote d'ivoire, explorez le pays! Découvrez ses richesses et son patrimoine unique.Les visites guidées de cette année de nouveautés rejoignent le calendrier de découverte du territoire mêlant réflexion, émotions, frissons et histoire.Les nombreuses thématiques – visites historiques, etc.</p>
+                                    </div>
+                              </div>
+                        </div>
+                        </div>
+                  </div>
+                  
+            </section>
+
+            <!--destinations-->
+            <section >
+                    <h2 class="services" id="destinations">Destination Vedette</h2>
+                  <span id="trait"><hr class="light" style="width: 100px !important; border:1px solid #343a40;"></span>
+                  <div class="container-fluid">
+                        <div class="row justify-content-center">
+                              <div class="col-md-3">
+                                    <div class="card shadow" style="width: 18rem;">
+                                          <div class="inner">
+                                                 <img src="images/sassandra.jpeg" class="card-img-top" alt=" card image cap"> 
+                                          </div>
+                                         
+                                          <div class="card-body text-center">
+                                                <h5 class="card-title">Sassandra</h5>
+                                                <p class="card-text">La région côtière est couverte de mangroves. Le Parc national du Gaoulou se situe à proximité. À Louga, village situé au confluent de 2 bras du fleuve Sassandra à 20 km au nord de Sassandra, des buffles vivent dans une zone de savane. La côte comporte de multiples plages : Batélébré, Niézéko, Lateko, Labléga, Kadrokpa et surtout Poliplage et Monogaga qui se situe à 60 km environ sur la route de San-Pédro. Bordée de cocotiers, Poliplage déroule son étendue sablonneuse entre les récifs formant parfois de modestes caps où vient se briser la barre de l'océan. Cette alternance de sable et de rochers caractérise la portion de côte qui s'étend de Fresco à la frontière du Liberia.</p>
+                                                <a href="https://fr.wikipedia.org/wiki/Sassandra" class="btn btn-warning">Visite</a>
+                                          </div>
+                                    </div>
+                              </div>
+                                <div class="col-md-3">
+                                    <div class="card shadow" style="width: 18rem;">
+                                           <div class="inner">
+                                                 <img src="images/c1.jpg" class="card-img-top" alt=" card image cap"> 
+                                          </div>
+                                          
+                                          <div class="card-body text-center">
+                                                <h5 class="card-title">Yamoussokro</h5>
+                                                <p class="card-text">CapitaLe  du pays il regorge des sites tels leParc animalier d’Aboukouamékro, étendu sur 20 430 hectares, qui abrite des rhinocéros, des gi rafes, des buffles, des bubales, des antilopes, particulièrement des guib harnachés et des cobes de Buffon, et de nombreuses autres espèces animales se situe à 50 km au nord de Yamoussoukro.Le Parc de la Marahoué, d'une superficie de 101 000 hectares et classé au patrimoine mondial de l'UNESCO se situe également dans la région, près de Bouaflé. La région des lacs compte également six forêts classées totalisant 22 310 hectares, toutes localisées dans le département de Yamoussoukro.</p>
+                                                <a href="https://fr.wikipedia.org/wiki/Yamoussoukro" class="btn btn-warning">Visite</a>
+                                          </div>
+                                    </div>
+                              </div>
+                                <div class="col-md-3">
+                                    <div class="card shadow" style="width: 100%;">
+                                           <div class="inner">
+                                                 <img src="images/assinie.jpg" class="card-img-top" alt=" card image cap"> 
+                                          </div>
+                                          
+                                          <div class="card-body text-center">
+                                                <h5 class="card-title">Assinie</h5>
+                                                <p class="card-text">Assinie est une localité du sud-est de la Côte d'Ivoire et appartenant au département d'Adiaké, Région du Sud-Comoé.Située à 94 km à l'est d'Abidjan, Assinie est une station balnéaire de la Côte d'Ivoire, au bord du golfe de Guinée. Deux villages de vacances y ont été construits : Assinie (à l'origine le Club Méditerranée) et Assouindé (La Valtur). Longue d'une quinzaine de kilomètres. Cette presqu'île très étroite (de 100 à 1 000 m) est occupée par de luxueuses villas et paillotes. L'accès se fait en voiture, par bateaux privés ou via des pirogues traversant la lagune.L'embouchure de la lagune qui marque la fin de la presqu'île d'Assinie est appelée La Passe.La localité est la destination privilégiée des abidjanais aisés pour le week-end. Elle a constitué le lieu de tournage du film Les Bronzés en 1978.</p>
+                                                <a href="https://fr.wikipedia.org/wiki/Assinie" class="btn btn-warning">Visite</a>
+                                          </div>
+                                    </div>
+                              </div>
+                                <div class="col-md-3">
+                                    <div class="card shadow" style="width: 100%;">
+                                           <div class="inner">
+                                                   <div class="inner">
+                                                 <img src="images/c2.jpg" class="card-img-top" alt=" card image cap"> 
+                                          </div>
+                                          </div>
+                                         
+                                          <div class="card-body text-center">
+                                                <h5 class="card-title">Man</h5>
+                                                <p class="card-text">Nombreux et impressionnants ponts de lianes toujours construits nuitamment.Nombreuses cascades spectaculaires dans les environs,  se trouve dans une zone sacrée..Mont Tonkoui, l'un des plus hauts sommets du pays (1189 m.)Mines de Fer de Kirao, construites par la société Panafrica en 2007. Ces mines abandonnées forment à présent des grottes interminables dans le mont Kirao. Ce mont est un terrain de randonnées pour les touristes, qui doivent compter en cinq et six heures de marche.Danses sur échasses, typiques des Yacouba.Foret sacrée de Gbêpleu : sacrée à la suite d'un sacrifice humain au xixe siècle, la forêt se situe à 3 km du centre ville. Elle est aujourd'hui connue pour sa forte concentration en singes verts friands de bananes douces, et qui font la joie des touristes.</p>
+                                                <a href="https://en.wikipedia.org/wiki/man" class="btn btn-warning">Visite</a>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="container-fluid">
+                        <div class="row justify-content-center">
+                              <div class="col-md-6">
+                                    <div class="card shadow" style="width: 100%;">
+                                           <div class="inner">
+                                                 <img src="images/bassam.jpg" class="card-img-top" alt=" card image cap"> 
+                                          </div>
+                                          
+                                          <div class="card-body text-center">
+                                                <h5 class="card-title">BASSAM</h5>
+                                                <p class="card-text">Grand-Bassam est une station balnéaire proche de la ville d'Abidjan, en Côte d’Ivoire, en Afrique de l'Ouest. Elle est connue pour sa plage fréquentée bordée de palmiers, qui s'étend le long de la côte Atlantique. La vieille ville, qui date de l'époque coloniale française, autrefois la capitale du pays, abrite de nombreuses maisons en ruines des XIXe et XXe siècles. Des robes traditionnelles sont exposées dans un ancien palais du gouverneur, au musée national du Costume</p>
+                                                <a href="https://fr.wikipedia.org/wiki/Grand-Bassam" class="btn btn-warning">Visite</a>
+                                          </div>
+                                    </div>
+                              </div>
+                                <div class="col-md-6">
+                                    <div class="card shadow" style="width: 100%;">
+                                           <div class="inner">
+                                                 <img src="images/san-pedro.jpg" class="card-img-top" alt=" card image cap"> 
+                                          </div>
+                                         
+                                          <div class="card-body text-center">
+                                                <h5 class="card-title">San-Pedro</h5>
+                                                <p class="card-text">Le district du Bas Sassandra regroupe les régions administratives de San-Pedro, de la Nawa et du Gboklé. Cette partie de la Côte d'Ivoire où  l’on trouve est les plus belles plages du pays, est caractérisée par des criques sableuses, des mers peu agitées, favorisant une agréable baignade.Bercée par le Golfe de Guinée qui lui offre ses 150 Kilomètres de plages, San Pedro dispose d’infrastructures balnéaires et de réceptifs hôteliers de qualité.La baie de Taki.Très beau site balnéaire, la baie de Taki est une magnifique plage, protégée par un couvert végétal</p>
+                                                <a href="https://fr.wikipedia.org/wiki/San_Pedro_Town" class="btn btn-warning">Visite</a>
+                                          </div>
+                                    </div>
+                              </div>
+                               
+                        </div>
+                  </div>
+                 
+            </section>
+
+            <!--newletter-->
+            <section id="newletter">
+                  <div class="container">
+                        <form>
+                              <h2>Rejoindre notre newletter</h2>
+                              <p>Entrez votre email et souscrivez pour avoir les nouveautés directement sur boite mail</p>
+                              <div class="email-box">
+                                    <i class="fas fa-envelope text-dark"></i>
+                                    <input class="tbox" type="email" name="email" placeholder="Entrez votre adresse mail">
+                                    <button class="btn1" type="button">Souscrire</button>
+                              </div>
+                        </form>
+                  </div>
+            </section>
+
+            <footer id="footer">
+            	<div class="container-fluid padding" >
+            		<div class="row text-center">
+            			<div class="col-md-4">
+            				<h2 id="logos">Ivor<span>y</span>Tours!</h2>
+            				<hr class="light">
+            				<p><i class="fas fa-phone-square"></i> (+225) 035-541-4</p>
+            				<p><i class="fas fa-envelope-square"></i> contact@ivorytour.com</p>
+            				<p><i class="fas fa-map-marker-alt"></i> Abidjan, Cocody, Rivera 2</p>
+            			</div>
+            			<div class="col-md-4">
+            				<h2 style="margin-top: 27px;">Nos Horaires</h2>
+            				<hr class="light">
+                                    <i class="fas fa-calendar-alt"></i>
+            				<p>Lundi-Vendredi : 8H-16H</p>
+            				<p>Samedi : 9H-11H</p>
+            			</div>
+            			<div class="col-md-4">
+            				<h2 style="margin-top: 27px;">Nous Suivre</h2>
+            				<hr class="light">
+            				<div class="social padding">
+            					<span class="fa-stack fa-lg">
+                                            <i class="fas fa-circle fa-stack-2x "></i>
+                                            <a href="https://www.twitter.com""><i class="fab fa-twitter fa-stack-1x fa-inverse text-primary"></i></a>
+                                          </span>
+
+                                          <span class="fa-stack fa-lg">
+                                          <i class="far fa-circle fa-stack-2x text-primary"></i>
+                                            <a href="https://www.facebook.com""><i class="fab fa-facebook fa-stack-1x text-white"></i></a>
+                                          </span>
+
+                                          <span class="fa-stack fa-lg">
+                                            <i class="fas fa-circle fa-stack-2x ""></i>
+                                            <a href="https://www.instagram.com""><i class="fab fa-instagram fa-stack-1x text-danger"></i></a>
+                                            
+                                          </span>
+                                          <span class="fa-stack fa-lg">
+                                            <i class="fas fa-circle fa-stack-2x ""></i>
+                                            <a href="https://www.youtube.com""><i class="fab fa-youtube fa-stack-1x text-danger"></i></a>
+                                            
+                                          </span>
+            				</div>
+            			</div>
+            			<div class="col-12">
+            				<hr class="light">
+            				<h5>&copy;ivorytour.2019</h5>
+            			</div>
+            		</div>
+            	</div>
+
+            </footer>
+
+
+		</body>
+	</html>
